@@ -1,0 +1,22 @@
+  :root {
+    --md-sys-typescale-body-large-font: "Noto Sans" ;
+    --md-sys-typescale-body-medium-font: "Noto Sans" ;
+    --md-sys-typescale-body-small-font: "Noto Sans";
+    --md-sys-typescale-title-large-font: "Noto Sans";
+    --md-sys-typescale-title-medium-font: "Noto Sans";
+    --md-sys-typescale-title-small-font: "Noto Sans";
+    --md-sys-typescale-label-large-font: "Noto Sans";
+    --md-sys-typescale-label-medium-font: "Noto Sans";
+    --md-sys-typescale-label-small-font: "Noto Sans";
+    --md-sys-typescale-display-large-font: "Noto Sans";
+    --md-sys-typescale-display-medium-font: "Noto Sans";
+    --md-sys-typescale-display-small-font: "Noto Sans";
+    --md-sys-typescale-headline-large-font: "Noto Sans";
+    --md-sys-typescale-headline-medium-font: "Noto Sans";
+    --md-sys-typescale-headline-small-font: "Noto Sans";
+    --md-sys-shape-corner-medium: 4px;
+  }
+
+body{
+    font-family: "Noto Sans", sans-serif;
+}

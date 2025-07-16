@@ -1,0 +1,48 @@
+:root{
+
+    --md-sys-color-background : #EFEFEF;
+    --md-sys-color-primary:#181F1C;
+    --md-sys-color-primary-container:#3A4B46;
+    --md-sys-color-secondary:#274029;
+    --md-sys-color-secondary-container:#3F5A4B;
+    --md-sys-color-tertiary:#315C2B;
+    --md-sys-color-tertiary-container:#4A7A3C;
+    --md-sys-color-surface:#FFFFFF;
+    --md-sys-color-on-surface:#000000;
+    --md-sys-color-outline:#A0A0A0;
+    --md-sys-color-outline-variant:#D0D0D0;
+    --md-sys-color-surface-bright: #FFFFFF;
+    --md-sys-color-surface-dim: #F0F0F0;
+    --md-sys-color-surface-container:#F5F5F5;
+    --md-sys-color-surface-container-lowest:#F5F5F5;
+    --md-sys-color-surface-container-low:#F5F5F5;
+    --md-sys-color-surface-container-high:#F5F5F5;
+    --md-sys-color-surface-container-highest:#F5F5F5;  
+    --md-text-button-hover-state-layer-color: #904b4b;
+    --md-text-button-hover-state-layer-opacity: 0.6;
+    --md-list-item-label-text-font: "Noto Sans";
+    --md-text-button-label-text-font: "Noto Sans";
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background: var(--md-sys-color-background);
+}
+.end{
+  display: flex;
+  justify-content: end; 
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: var(--md-sys-color-surface-container);
+}
+
+header a{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    padding: 10px;
+}

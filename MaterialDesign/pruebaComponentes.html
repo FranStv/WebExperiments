@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/MaterialDesign/styles/stylesPC.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script type="importmap">
+      {
+        "imports": {
+          "@material/web/": "https://esm.run/@material/web/"
+        }
+      }
+    </script>
+    <script type="module">
+      import "@material/web/all.js";
+      import { styles as typescaleStyles } from "@material/web/typography/md-typescale-styles.js";
+
+      document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+    </script>
+    <title>Prueba Componentes MD</title>
+  </head>
+  <body>
+    <md-top-app-bar small>
+        <div slot="headline">Mi Página Web</div>
+        
+        <div slot="actions">
+            <md-icon-button>
+                <a href="#inicio" aria-label="Inicio">
+                    <md-icon>home</md-icon>
+                </a>
+            </md-icon-button>
+            <md-icon-button>
+                <a href="#categorias" aria-label="Categorías">
+                    <md-icon>category</md-icon>
+                </a>
+            </md-icon-button>
+            <md-icon-button>
+                <a href="#acerca-de" aria-label="Acerca de">
+                    <md-icon>info</md-icon>
+                </a>
+            </md-icon-button>
+            <md-icon-button>
+                <a href="#contacto" aria-label="Contacto">
+                    <md-icon>email</md-icon>
+                </a>
+            </md-icon-button>
+        </div>
+    </md-top-app-bar>
+
+    <main class="main-content">
+        <h1>Esta es una prueba para hacer un navbar con Material Design</h1>
+        <p>El contenido de tu página iría aquí.</p>
+    </main>
+    
+
+  </body>
+</html>
