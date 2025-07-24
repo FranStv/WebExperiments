@@ -13,13 +13,17 @@
     --md-sys-color-outline-variant:#D0D0D0;
     --md-sys-color-surface-bright: #FFFFFF;
     --md-sys-color-surface-dim: #F0F0F0;
-    --md-sys-color-surface-container:#F5F5F5;
+    --md-sys-color-surface-container:#181f1cff;
     --md-sys-color-surface-container-lowest:#F5F5F5;
     --md-sys-color-surface-container-low:#F5F5F5;
     --md-sys-color-surface-container-high:#F5F5F5;
     --md-sys-color-surface-container-highest:#F5F5F5;  
-    --md-text-button-hover-state-layer-color: #904b4b;
+    --md-text-button-hover-state-layer-color: #799287;
+    --md-text-button-pressed-icon-color:#5b6b64;
+    --md-text-button-pressed-label-text-color:#4A7A3C;
     --md-text-button-hover-state-layer-opacity: 0.6;
+    --md-text-button-container-shape: 16px;
+   
     --md-list-item-label-text-font: "Noto Sans";
     --md-text-button-label-text-font: "Noto Sans";
 }
@@ -30,7 +34,7 @@ body{
 }
 .end{
   display: flex;
-  justify-content: end; 
+  justify-content: left; 
 }
 header{
     display: flex;
@@ -45,4 +49,5 @@ header a{
     color: #FFFFFF;
     display: block;
     padding: 10px;
+    width: 15%;
 }
